@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import Image from "../components/Image"
+import Link from "next/link";
+import Image from "../components/Image";
 
 const About = () => {
   return (
@@ -11,12 +11,12 @@ const About = () => {
       <Image />
       <p>I was a magician once</p>
     </div>
-  )
-}
+  );
+};
 
 const style = {
   fontSize: "20px",
-  color: "blue"
-}
+  color: "blue",
+};
 
-export default About
+export default About;
